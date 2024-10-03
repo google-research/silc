@@ -25,13 +25,15 @@ Image-Text pretraining on web-scale image caption datasets has become the defaul
 If you find SILC useful in your research, please consider citing:
 
 ```
-@inproceedings{hoyer2024semivl,
+@inproceedings{naeem2024silc,
   title={SILC: Improving Vision Language Pretraining with Self-Distillation},
   author={Naeem, Muhammad Ferjad and Xian, Yongqin and Zhai, Xiaohua and Hoyer, Lukas and Van Gool, Luc and Tombari, Federico},
   booktitle={European Conference on Computer Vision (ECCV)},
   year={2024}
 }
-
+```
 ## Getting Started
 
-Please find the SILC checkpoints in the Release. They are readily usable with the [big_vision](https://github.com/google-research/big_vision) codebase.
+Please find the SILC checkpoints on the [Google drive folder](https://drive.google.com/drive/folders/1Q0yckj6kWaqaa83winGLNc8kpy-Zp-mO?usp=sharing). They are readily usable with the [big_vision](https://github.com/google-research/big_vision) codebase.
+
+The released checkpoints are trained on the DataComp1B split. The release contains ViT/B16 and SO400M checkpoints. We will update the repo with detailed eval soon. PyTorch checkpoints will also be released soon.
